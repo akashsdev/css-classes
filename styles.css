@@ -1,0 +1,345 @@
+/* *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box;}
+
+html, body { margin: 0; padding: 0;}
+
+:root{
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+} */
+
+/*--------TEMPLATE CLASSES-------------*/
+
+/*-DISPLAY-*/
+//.dp-fullscreen{height: 100vh; width: 100vw;}
+//.dp-flex{display:flex;} 
+//.dp-none{display:none;}  
+//.dp-grid{display:grid;}
+//.flex-grow{flex-grow:1;} 
+//.flex-shrink{flex-shrink:0;}
+//.flex-dir-col{flex-direction:column;}
+
+/* //.flex-05{flex:0//.5;} 
+//.flex-10{flex:1;} 
+//.flex-15{flex:1//.5;} 
+//.flex-20{flex:2;}
+//.flex-25{flex:2//.5;} 
+//.flex-30{flex:3;} 
+//.flex-35{flex:3//.5;} 
+//.flex-40{flex:4;}
+//.flex-45{flex:4//.5;} 
+//.flex-50{flex:5;} 
+//.flex-55{flex:5//.5;} 
+//.flex-60{flex:6;}
+//.flex-65{flex:6//.5;} 
+//.flex-70{flex:7;} 
+//.flex-75{flex:7//.5;} 
+//.flex-80{flex:8;}
+//.flex-85{flex:8//.5;} 
+//.flex-90{flex:9;} 
+//.flex-95{flex:9//.5;} */
+
+//.of-hidden{overflow:hidden;} 
+//.of-auto{overflow:auto;}
+
+//.top-0{top:0;} 
+//.bottom-0{bottom:0;} 
+//.left-0{left:0;} 
+//.right-0{right:0;}
+//.top-5{top:5px;} 
+//.bottom-5{bottom:5px;} 
+//.left-5{left:5px;} 
+//.right-5{right:5px;}
+
+//.pos-fixed{position: fixed;} 
+//.pos-absolute{position: absolute;}
+//.pos-relative{position: relative;}
+
+/*-HEIGHT & WIDTH-*/
+//.height-100p{height:100%;} 
+//.width-100p{width:100%;} 
+
+/* //.width-8{width:8px;}
+//.width-16{width:16px;} 
+//.width-24{width:24px;} 
+//.width-32{width:32px;} 
+//.width-40{width:40px;} 
+//.width-48{width:48px;} 
+//.width-64{width:64px;} 
+//.width-72{width:72px;} 
+//.width-80{width:80px;} 
+//.width-96{width:96px;} 
+//.width-100{width:100px;} 
+//.width-128{width:128px;} 
+//.width-144{width:144px;} 
+//.width-150{width:150px;} 
+//.width-160{width:160px;} 
+//.width-192{width:192px;} 
+//.width-240{width:240px;} 
+//.width-300{width:300px;} 
+//.width-320{width:320px;} 
+//.width-360{width:360px;} 
+//.width-400{width:400px;} 
+//.width-480{width:480px;} 
+
+/* //.height-8{height:8px;} 
+//.height-12{height:12px;} 
+//.height-16{height:16px;} 
+//.height-20{height:20px;} 
+//.height-24{height:24px;} 
+//.height-32{height:32px;} 
+//.height-36{height:36px;} 
+//.height-40{height:40px;} 
+//.height-48{height:48px;} 
+//.height-64{height:64px;} 
+//.height-72{height:72px;} 
+//.height-80{height:80px;}
+//.height-96{height:96px;} 
+//.height-100{height:100px;} 
+//.height-120{height:120px;} 
+//.height-150{height:150px;} 
+//.height-200{height:200px;} 
+//.height-240{height:240px;} 
+//.height-300{height:300px;} 
+//.height-360{height:360px;} 
+//.height-400{height:400px;} 
+//.height-480{height:480px;} 
+
+/*-FLEX-ALIGNMENT-*/
+//.align-items-c{align-items:center;} 
+//.align-items-fs{align-items:flex-start;} 
+//.align-items-fe{align-items:flex-end;}
+
+//.justify-content-c{justify-content:center;} 
+//.justify-content-fs{justify-content:flex-start;}
+//.justify-content-fe{justify-content:flex-end;} 
+//.justify-content-sb{justify-content:space-between;}
+//.justify-content-sa{justify-content:space-around;}
+
+//.txt-align-c{text-align:center;} 
+//.txt-align-l{text-align:left;} 
+//.txt-align-r{text-align:right;}
+
+/*-PADDING-*/
+//.p-5{padding: 5px;} 
+//.p-10{padding: 10px;} 
+//.p-15{padding: 15px;} 
+//.p-20{padding: 20px;}
+//.pt-5{padding-top: 5px;} 
+//.pt-10{padding-top: 10px;} 
+//.pt-15{padding-top: 15px;} 
+//.pt-20{padding-top: 20px;}
+//.pb-5{padding-bottom: 5px;} 
+//.pb-10{padding-bottom: 10px;} 
+//.pb-15{padding-bottom: 15px;} 
+//.pb-20{padding-bottom: 20px;}
+//.pr-5{padding-right: 5px;} 
+//.pr-10{padding-right: 10px;} 
+//.pr-15{padding-right: 15px;} 
+//.pr-20{padding-right: 20px;}
+//.pl-5{padding-left: 5px;} 
+//.pl-10{padding-left: 10px;} 
+//.pl-15{padding-left: 15px;} 
+//.pl-20{padding-left: 20px;} */
+
+/*-MARGIN-*/
+//.m-5{margin:5px;} 
+//.ml-5{margin-left:5px;} 
+//.mr-5{margin-right:5px;}
+//.mt-5{margin-top:5px;} 
+//.mb-5{margin-bottom:5px;}
+//.m-5{margin:5px;} 
+//.ml-5{margin-left:5px;} 
+//.mr-5{margin-right:5px;}
+//.mt-5{margin-top:5px;} 
+//.mb-5{margin-bottom:5px;}
+//.m-10{margin:10px;} 
+//.ml-10{margin-left:10px;} 
+//.mr-10{margin-right:10px;}
+//.mt-10{margin-top:10px;} 
+//.mb-10{margin-bottom:10px;}
+//.m-15{margin:15px;} 
+//.ml-15{margin-left:15px;} 
+//.mr-15{margin-right:15px;} 
+//.mt-15{margin-top:15px;} 
+//.mb-15{margin-bottom:15px;}
+//.m-20{margin:20px;} 
+//.ml-20{margin-left:20px;} 
+//.mr-20{margin-right:20px;}
+//.mt-20{margin-top:20px;} 
+//.mb-20{margin-bottom:20px;}
+//.ml-30{margin-left:30px;} 
+//.mr-30{margin-right:30px;} 
+//.mt-30{margin-top:30px;} 
+//.mb-30{margin-bottom:30px;}
+//.ml-40{margin-left:40px;} 
+//.mr-40{margin-right:40px;} 
+//.mt-40{margin-top:40px;} 
+//.mb-40{margin-bottom:40px;}
+
+/*-TEXT DECORATION-*/
+//.td-underline{text-decoration:underline;}
+
+/*-FONT-*/
+//.clr-black{color:black;} 
+//.clr-white{color:white;}
+//.clr-red{color:red;} 
+//.clr-blue{color:blue;} 
+//.clr-navy{color:navy;}
+//.clr-darkslateblue{color:darkslateblue;}
+
+//.fs-8{font-size: 8px;} 
+//.fs-10{font-size: 10px;} 
+//.fs-12{font-size: 12px;} 
+//.fs-14{font-size: 14px;}
+//.fs-16{font-size: 16px;} 
+//.fs-18{font-size: 18px;} 
+//.fs-20{font-size: 20px;} 
+//.fs-24{font-size: 24px;}
+//.fs-28{font-size: 28px;} 
+//.fs-32{font-size: 32px;} 
+//.fs-36{font-size: 36px;} 
+//.fs-36{font-size: 36px;}
+//.fs-40{font-size: 40px;} 
+//.fs-48{font-size: 48px;} 
+//.fs-56{font-size: 56px;} 
+//.fs-64{font-size: 64px;}
+
+//.fw-300{font-weight:300;} 
+//.fw-400{font-weight:400;} 
+//.fw-500{font-weight:500;} 
+//.fw-600{font-weight:600;}
+//.fw-700{font-weight:700;} 
+//.fw-800{font-weight:800;}
+//.fw-bold{font-weight: bold;} 
+//.fw-medium{font-weight: medium;} 
+//.fw-normal{font-weight: normal;}
+
+//.font-roboto { font-family: 'Roboto', sans-serif; }
+//.font-textmeone { font-family: 'Text Me One', sans-serif; }
+//.font-dosis { font-family: 'Dosis', sans-serif; }
+//.font-raleway { font-family: 'Raleway', sans-serif; }
+//.font-notosans { font-family: 'Noto Sans', sans-serif; }
+//.font-poiretone { font-family: 'Poiret One', sans-serif; }
+//.font-montserrat { font-family: 'Montserrat', sans-serif; }
+//.font-lato { font-family: 'Lato', sans-serif; }
+//.font-comfortaa { font-family: 'Comfortaa', sans-serif; }
+//.font-concertone { font-family: 'Concert One', sans-serif; }
+//.font-urbanist { font-family: 'Urbanist', sans-serif; }
+//.font-josefinsans { font-family: 'Josefin Sans', sans-serif; }
+
+/*-BACKGROUND-*/
+
+//.bg-theme{background-color:#00008B;}
+//.bg-white{background-color:white;} 
+//.bg-floralwhite{background-color:floralwhite;} 
+//.bg-ghostwhite{background-color:ghostwhite;} 
+//.bg-seashell{background-color:seashell;} 
+//.bg-snow{background-color:snow;}  
+//.bg-charcoalwhite{background-color: #EEE;}
+//.bg-shadywhite{background-color: #DDD;}
+
+//.bg-gray{background-color:gray;} 
+//.bg-dimgray{background-color:dimgray;}
+//.bg-gainsboro{background-color:gainsboro;} 
+//.bg-darkgray{background-color:darkgray;}
+//.bg-slategray{background-color:slategray;} 
+//.bg-lightslategray{background-color:lightslategray;}
+//.bg-darkslategray{background-color:darkslategray;} 
+//.bg-lightgray{background-color:lightgray;}
+
+//.bg-black{background-color:black;} 
+//.bg-orange{background-color:orange;}
+//.bg-orangered{background-color:orangered;} 
+//.bg-charcoal{background-color:#111;}
+
+//.bg-limegreen{background-color:limegreen;} 
+//.bg-green{background-color:green;}
+//.bg-darkgreen{background-color:darkgreen;} 
+//.bg-seagreen{background-color:seagreen;}
+//.bg-palegreen{background-color:palegreen;} 
+//.bg-springgreen{background-color:springgreen;}
+//.bg-lime{background-color:lime;}
+
+//.bg-indianred{background-color:indianred;} 
+//.bg-coral{background-color:coral;}
+//.bg-salmon{background-color:salmon;} 
+//.bg-red{background-color:red;}
+//.bg-crimson{background-color:crimson;} 
+//.bg-yellow{background-color: yellow;}
+
+//.bg-blue{background-color:blue;} 
+//.bg-indigo{background-color:indigo;}
+//.bg-aqua{background-color:aqua;} 
+//.bg-cornflowerblue{background-color:cornflowerblue;}
+//.bg-dodgerblue{background-color:dodgerblue;} 
+//.bg-midnightblue{background-color:midnightblue;}
+//.bg-navy{background-color:navy;} 
+//.bg-orchid{background-color:orchid;}
+//.bg-darkorchid{background-color:darkorchid;} 
+//.bg-magenta{background-color:magenta;}
+//.bg-darkmagenta{background-color:darkmagenta;} 
+//.bg-darkblue{background-color:darkblue;}
+//.bg-royalblue{background-color:royalblue;} 
+//.bg-darkslateblue{background-color:darkslateblue;}
+//.bg-mediumslateblue{background-color:mediumslateblue;} 
+//.bg-mediumpurple{background-color:mediumpurple;}
+//.bg-rebeccapurple{background-color:rebeccapurple;}
+/*.bg-main{
+  background: -webkit-linear-gradient(135deg, rgba(50, 50, 50, 1), rgba(0, 0, 139, 0//.7), rgba(255, 0, 255, 0//.5)); 
+  background: -moz-linear-gradient(135deg, rgba(50, 50, 50, 1), rgba(0, 0, 139, 0//.7), rgba(255, 0, 255, 0//.5));
+  background: -o-linear-gradient(135deg, rgba(50, 50, 50, 1), rgba(0, 0, 139, 0//.7), rgba(255, 0, 255, 0//.5));
+  background: linear-gradient(135deg, rgba(50, 50, 50, 1), rgba(0, 0, 139, 0//.7), rgba(255, 0, 255, 0//.5));
+}*/
+
+//.opacity-00{opacity:0;} 
+//.opacity-01{opacity:0//.1;} 
+//.opacity-03{opacity:0//.3;} 
+//.opacity-05{opacity:0//.5;}
+//.opacity-07{opacity:0//.7;} 
+//.opacity-09{opacity:0//.9;} 
+//.opacity-10{opacity:1;}
+
+/*-BORDER-*/
+//.bd-none{border:none;} 
+//.bd-rd-50p{border-radius: 50%;} 
+
+//.bd-rd-4{border-radius: 4px;} 
+//.bd-rd-8{border-radius: 8px;}
+//.bd-rd-12{border-radius: 12px;} 
+//.bd-rd-16{border-radius: 16px;} 
+//.bd-rd-24{border-radius: 24px;} 
+//.bd-rd-32{border-radius: 32px;}
+
+//.bd-1-black{border: 1px solid black;} 
+//.bd-2-black{border: 2px solid black;}
+//.bd-1-blue{border: 1px solid blue;}
+//.bd-2-blue{border: 2px solid blue;}
+//.bd-1-red{border: 1px solid red;} 
+//.bd-2-red{border: 2px solid red;}
+//.bd-1-crimson{border: 1px solid crimson;} 
+//.bd-2-crimson{border: 2px solid crimson;}
+
+/*-MISC-*/
+//.cursor-p{cursor:pointer;}
+
+/*.is-live{
+  display: flex;
+  animation: blink-animation 2s infinite;
+}
+
+@keyframes blink-animation{
+  0% { opacity: 1;}
+  50% { opacity: 0;}
+  100% { opacity: 1;}
+}*/
+
+
+//@media screen and (max-width: 719px){}
+//@media screen and (min-width: 720px){}
+//@media screen and (min-width: 960px){}
+//@media screen and (min-width: 1280px){}
